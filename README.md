@@ -27,10 +27,7 @@ You may need to follow instructions for installing plawright.
 
 ## Run
 
-From repo root
+From repo root:
 
     npm run start
-
-Navigate to http://localhost:5000
-
 
