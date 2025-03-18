@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npx ts-node server/server.ts",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run --prefix client build",
+    "start":  "npx ts-node server/server.ts"
+  },
+  "dependencies": {
+    "express": "^latest",
+    "concurrently": "^latest"
+  }
+}

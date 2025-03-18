@@ -1,0 +1,191 @@
+.date-range-picker input {
+
+	margin: 7px 10px 10px 0px;
+	width: 100px;
+
+}
+
+h1 {
+
+	padding-left:10px;
+
+}
+
+#instructions p {
+
+  	padding-left:10px;
+	color:#333;
+
+}
+
+.date-range-picker {
+
+  	height: 30px;
+
+}
+
+.number-range input {
+
+  width: 100px;
+
+  margin: 7px 10px 10px 0px;
+
+}
+
+.search-controls {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2px;
+	width: 700px;
+	padding-top:10px;
+}
+  
+
+.advanced-features {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  width: 1070px;
+  padding-top:10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* CollapsibleSection.css */
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.collapsible-title {
+  font-weight: normal;
+}
+
+.collapsible-arrow {
+
+  font-size: 12px;
+  margin: 0px 10px;
+
+}
+
+.arrow-closed {
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+}
+
+.arrow-open {
+  transform: rotate(90deg);
+  transition: transform 0s;
+}
+
+.input-box {
+
+  width:800px;
+  border: 2px solid blue;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+.collapsible-content {
+
+    padding:10px;
+
+}
+
+.button-component {
+
+    margin: 0px 5px;
+    font-size: 16px;
+    padding:5px;
+
+}
+
+.red-button {
+
+    background-color:red;
+
+}
+
+
+
+.checkbox-label {
+
+    margin: 20px 15px 10px 0px;
+
+}
+
+.checkbox-span {
+
+    margin-left: 2px;
+
+}
+.import-options-pane {
+
+    padding-top: 10px;
+
+}
+
+.result-item {
+
+  	text-align:center;
+
+}
+
+.result-item img {
+
+	display: block;
+	width:240px;
+	margin: 0 auto;
+
+}
+
+.results-grid {
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	justify-items: center;
+	align-items: center;
+}
